@@ -1,0 +1,16 @@
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.exe
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.deps.json
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.runtimeconfig.json
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.runtimeconfig.dev.json
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\ref\Project_PRN211_Group3.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.pdb
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.AssemblyReference.cache
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.AssemblyInfoInputs.cache
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.AssemblyInfo.cs
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.CoreCompileInputs.cache
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\ref\Project_PRN211_Group3.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.pdb
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.genruntimeconfig.cache
