@@ -14,3 +14,85 @@ C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Grou
 C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\ref\Project_PRN211_Group3.dll
 C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.pdb
 C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.genruntimeconfig.cache
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Azure.Core.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Azure.Identity.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.GUI.Login.resources
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.Main.resources
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.GenerateResource.cache
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.CopyComplete
+C:\Users\Duong Xuan Thang\source\repos\Project_PRN211_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\appsettings.json
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.exe
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\appsettings.json
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.deps.json
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.runtimeconfig.json
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.runtimeconfig.dev.json
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\ref\Project_PRN211_Group3.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Project_PRN211_Group3.pdb
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Azure.Core.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Azure.Identity.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.AssemblyReference.cache
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.GUI.Login.resources
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.Main.resources
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.GenerateResource.cache
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.AssemblyInfoInputs.cache
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.AssemblyInfo.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.CoreCompileInputs.cache
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.csproj.CopyComplete
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\ref\Project_PRN211_Group3.dll
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.pdb
+D:\PRN211_Project_Group3\PRN211_Project_Group3\Project_PRN211_Group3\obj\Debug\net5.0-windows\Project_PRN211_Group3.genruntimeconfig.cache
