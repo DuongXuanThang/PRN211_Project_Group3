@@ -1,2 +1,0 @@
-# PRN211_Project_Group3
-PRN211_Project_Group3
