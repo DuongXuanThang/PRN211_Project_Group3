@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yXo6Y1jIRz0uOZEIz7RN6EeK/n6ekIK8KjZpm9GALLWoY1sg9m/wYigCvD4J11G0ezFs5z+kh1dOYnMg032Edg==",
+  "dgSpecHash": "Fj1PUNrulzX7ZkxqJ5lHB/gIQWyAkuGen6Kv1tnp3fXytu/DKpSWPWi9nTGqO4osejYFaQSFL5goH2YGbDI3Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Duong Xuan Thang\\source\\repos\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
+  "projectFilePath": "D:\\PRN211_Project_Group3\\PRN211_Project_Group3\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Duong Xuan Thang\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Duong Xuan Thang\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

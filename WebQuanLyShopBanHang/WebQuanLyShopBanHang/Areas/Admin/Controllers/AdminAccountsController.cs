@@ -22,6 +22,22 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
         // GET: Admin/AdminAccounts
         public async Task<IActionResult> Index()
         {
+            //lay du lieu cho cbx role
+            ViewData["QuyenTruyCap"] = new SelectList(_context.Roles, "RoleId", "Description");
+            //lay trang thai truy cap
+            List<SelectListItem> ls = new List<SelectListItem>();
+            ls.Add(new SelectListItem()
+            {
+                Text = "Active",
+                Value = "1"
+            });
+            ls.Add(new SelectListItem()
+            {
+                Text = "Block",
+                Value = "0"
+            });
+            ViewData["ls"] = ls;
+
             var group3Context = _context.Accounts.Include(a => a.Role);
             return View(await group3Context.ToListAsync());
         }

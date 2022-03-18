@@ -19,6 +19,7 @@ namespace WebQuanLyShopBanHang.Models
 
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
 
@@ -82,6 +83,39 @@ namespace WebQuanLyShopBanHang.Models
                 entity.Property(e => e.Thumb).HasMaxLength(250);
 
                 entity.Property(e => e.Title).HasMaxLength(250);
+            });
+
+            modelBuilder.Entity<Customer>(entity =>
+            {
+                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+
+                entity.Property(e => e.Address).HasMaxLength(255);
+
+                entity.Property(e => e.Avatar).HasMaxLength(255);
+
+                entity.Property(e => e.Birthday).HasColumnType("datetime");
+
+                entity.Property(e => e.CreateDate).HasColumnType("datetime");
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(150)
+                    .IsFixedLength(true);
+
+                entity.Property(e => e.FullName).HasMaxLength(255);
+
+                entity.Property(e => e.LastLogin).HasColumnType("datetime");
+
+                entity.Property(e => e.LocationId).HasColumnName("LocationID");
+
+                entity.Property(e => e.Password).HasMaxLength(50);
+
+                entity.Property(e => e.Phone)
+                    .HasMaxLength(12)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Salt)
+                    .HasMaxLength(8)
+                    .IsFixedLength(true);
             });
 
             modelBuilder.Entity<Product>(entity =>

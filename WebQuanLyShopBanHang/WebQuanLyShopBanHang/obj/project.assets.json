@@ -7375,11 +7375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duong Xuan Thang\\source\\repos\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
+      "projectUniqueName": "D:\\PRN211_Project_Group3\\PRN211_Project_Group3\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
       "projectName": "WebQuanLyShopBanHang",
-      "projectPath": "C:\\Users\\Duong Xuan Thang\\source\\repos\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
+      "projectPath": "D:\\PRN211_Project_Group3\\PRN211_Project_Group3\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang.csproj",
       "packagesPath": "C:\\Users\\Duong Xuan Thang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duong Xuan Thang\\source\\repos\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\obj\\",
+      "outputPath": "D:\\PRN211_Project_Group3\\PRN211_Project_Group3\\WebQuanLyShopBanHang\\WebQuanLyShopBanHang\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Duong Xuan Thang\\AppData\\Roaming\\NuGet\\NuGet.Config",

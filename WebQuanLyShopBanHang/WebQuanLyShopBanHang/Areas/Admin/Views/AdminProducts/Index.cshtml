@@ -21,6 +21,7 @@
             <div class="row m-b-30">
                 <div class="col-lg-8">
                     <div class="d-md-flex">
+
                         <div class="m-b-10 m-r-15">
                             <select class="custom-select" id="idrole" name="idrole" style="min-width: 220px;" asp-items="ViewBag.QuyenTruyCap">
                                 <option value="0" disabled selected>Chọn quyền truy cập</option>
@@ -31,9 +32,16 @@
                                 <option value="0" disabled selected>Chọn Trạng thái</option>
                             </select>
                         </div>
-                    </div>
-                </div>
 
+                    </div>
+
+                </div>
+                <div class="col-lg-4 text-right">
+                    <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Create" class="btn btn-primary">
+                        <i class="anticon anticon-plus-circle m-r-5"></i>
+                        <span>Thêm sản phẩm</span>
+                    </a>
+                </div>
             </div>
             <div class="table-responsive">
                 <table class="table table-hover e-commerce-table">
