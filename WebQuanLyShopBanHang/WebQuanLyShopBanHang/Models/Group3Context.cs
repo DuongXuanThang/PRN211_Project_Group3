@@ -20,6 +20,8 @@ namespace WebQuanLyShopBanHang.Models
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
 
@@ -68,21 +70,7 @@ namespace WebQuanLyShopBanHang.Models
 
                 entity.Property(e => e.CatId).HasColumnName("CatID");
 
-                entity.Property(e => e.Alias).HasMaxLength(250);
-
                 entity.Property(e => e.CatName).HasMaxLength(250);
-
-                entity.Property(e => e.Cover).HasMaxLength(255);
-
-                entity.Property(e => e.MetaDesc).HasMaxLength(250);
-
-                entity.Property(e => e.MetaKey).HasMaxLength(250);
-
-                entity.Property(e => e.ParentId).HasColumnName("ParentID");
-
-                entity.Property(e => e.Thumb).HasMaxLength(250);
-
-                entity.Property(e => e.Title).HasMaxLength(250);
             });
 
             modelBuilder.Entity<Customer>(entity =>
@@ -103,10 +91,6 @@ namespace WebQuanLyShopBanHang.Models
 
                 entity.Property(e => e.FullName).HasMaxLength(255);
 
-                entity.Property(e => e.LastLogin).HasColumnType("datetime");
-
-                entity.Property(e => e.LocationId).HasColumnName("LocationID");
-
                 entity.Property(e => e.Password).HasMaxLength(50);
 
                 entity.Property(e => e.Phone)
@@ -116,6 +100,41 @@ namespace WebQuanLyShopBanHang.Models
                 entity.Property(e => e.Salt)
                     .HasMaxLength(8)
                     .IsFixedLength(true);
+            });
+
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.Property(e => e.OrderId).HasColumnName("OrderID");
+
+                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+
+                entity.Property(e => e.OrderDate).HasColumnType("datetime");
+
+                entity.HasOne(d => d.Customer)
+                    .WithMany(p => p.Orders)
+                    .HasForeignKey(d => d.CustomerId)
+                    .HasConstraintName("FK_Orders_Customers2");
+            });
+
+            modelBuilder.Entity<OrderDetail>(entity =>
+            {
+                entity.Property(e => e.OrderDetailId).HasColumnName("OrderDetailID");
+
+                entity.Property(e => e.CreateDate).HasColumnType("datetime");
+
+                entity.Property(e => e.OrderId).HasColumnName("OrderID");
+
+                entity.Property(e => e.ProductId).HasColumnName("ProductID");
+
+                entity.HasOne(d => d.Order)
+                    .WithMany(p => p.OrderDetails)
+                    .HasForeignKey(d => d.OrderId)
+                    .HasConstraintName("FK_OrderDetails_Orders");
+
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.OrderDetails)
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK_OrderDetails_Products");
             });
 
             modelBuilder.Entity<Product>(entity =>
@@ -130,10 +149,6 @@ namespace WebQuanLyShopBanHang.Models
 
                 entity.Property(e => e.DateModified).HasColumnType("datetime");
 
-                entity.Property(e => e.MetaDesc).HasMaxLength(255);
-
-                entity.Property(e => e.MetaKey).HasMaxLength(255);
-
                 entity.Property(e => e.ProductName)
                     .IsRequired()
                     .HasMaxLength(255);
@@ -143,8 +158,6 @@ namespace WebQuanLyShopBanHang.Models
                 entity.Property(e => e.Thumb).HasMaxLength(255);
 
                 entity.Property(e => e.Title).HasMaxLength(255);
-
-                entity.Property(e => e.Video).HasMaxLength(255);
 
                 entity.HasOne(d => d.Cat)
                     .WithMany(p => p.Products)

@@ -22,8 +22,10 @@
                 <div class="col-lg-8">
                     <div class="d-md-flex">
                         <div class="m-b-10 m-r-15">
-                            <select class="custom-select" id="idrole" name="idrole" style="min-width: 220px;" asp-items="ViewBag.QuyenTruyCap">
-                                <option value="0" disabled selected>Chọn quyền truy cập</option>
+                            <select class="custom-select" id="txtcatID" name="txtcatID" style="min-width: 220px;" asp-items="ViewBag.DanhMuc">
+                               
+                                <option selected>Chọn danh mục</option>
+                                <option value="all">ALL</option>
                             </select>
                         </div>
                         <div class="m-b-10">
@@ -41,13 +43,12 @@
                         <tr>
 
                             <th>ID</th>
-                            <th>FullName</th>
-                            <th>Birthday</th>
-                            <th>Address</th>
+                            <th>Họ và tên</th>
+                            <th>Sinh ngày</th>
+                            <th>Địa chỉ</th>
                             <th>Email</th>
+                            <th>Số điện thoại</th>
                            
-                            <th>Phone</th>
-                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -70,7 +71,7 @@
                             <td>@item.Address</td>
                             <td>@item.Email</td>
                             <td>@item.Phone</td>
-                            <td>@item.Email</td>
+                           
 
                             <td>
                                 <a class="btn btn-primary m-r-5" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Details" asp-route-id="@item.CustomerId">View</a>

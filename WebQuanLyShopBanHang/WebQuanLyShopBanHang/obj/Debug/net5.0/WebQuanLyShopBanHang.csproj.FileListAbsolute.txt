@@ -861,7 +861,6 @@ D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLySho
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\WebQuanLyShopBanHang.csproj.AssemblyReference.cache
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\WebQuanLyShopBanHang.GeneratedMSBuildEditorConfig.editorconfig
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\WebQuanLyShopBanHang.AssemblyInfoInputs.cache
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\WebQuanLyShopBanHang.AssemblyInfo.cs
@@ -886,7 +885,6 @@ D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLySho
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminRoles\Details.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminRoles\Edit.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminRoles\Index.cshtml.g.cs
-D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_SideNavPartialView.cshtml.g.cs
@@ -924,3 +922,12 @@ D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLySho
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Details.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Edit.cshtml.g.cs
 D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Index.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\Accounts\DashBroad.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\Accounts\DangKyTaiKhoan.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\Accounts\Login.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\Shared\Components\HeaderCart\Default.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Views\Shared\Components\NumberCart\Default.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\WebQuanLyShopBanHang.csproj.AssemblyReference.cache
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\HomeAdmin\Index.cshtml.g.cs
+D:\PRN211_Project_Group3\PRN211_Project_Group3\WebQuanLyShopBanHang\WebQuanLyShopBanHang\obj\Debug\net5.0\Razor\Areas\Admin\Views\Search\ListProductSearchPartial.cshtml.g.cs

@@ -25,17 +25,45 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminProducts
-        public IActionResult Index(int? page)
+        public IActionResult Index(int page = 1,int CatID=0)
         {
+
             //phan trang
-            var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-            var pageSize = 20;
-            var lsProduct = _context.Products.AsNoTracking().Include(x =>x.Cat).OrderByDescending(x => x.ProductId);
-            PagedList<Product> models = new PagedList<Product>(lsProduct, pageNumber, pageSize);
+            var pageNumber = page;
+            var pageSize = 5;
+            List<Product> lsProduct = new List<Product>();
+            if (CatID != 0)
+            {
+                lsProduct = _context.Products
+                    .AsNoTracking().
+                    Where(x => x.CatId == CatID)
+                    .Include(x => x.Cat)
+                    .OrderByDescending(x => x.ProductId).ToList();
+            }
+            else
+            {
+                lsProduct = _context.Products.AsNoTracking().Include(x => x.Cat).OrderByDescending(x => x.ProductId).ToList() ;
+            }
+
+           
+            PagedList<Product> models = new PagedList<Product>(lsProduct.AsQueryable(), pageNumber, pageSize);
             ViewBag.CurrentPage = pageNumber;
+            ViewBag.CurrentCateID = CatID;
+            // lay du lieu cho cbx role
+             ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName",CatID);
+            //lay trang thai truy cap
+          
             return View(models);
         }
-
+        public IActionResult Filter(int CatID = 0)
+        {
+            var url = $"/Admin/AdminProducts?CatID={CatID }";
+            if(CatID == 0)
+            {
+                url= $"/Admin/AdminProducts";
+            }
+            return Json(new { status = "success", redirectUrl = url });
+        }
         // GET: Admin/AdminProducts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -106,7 +134,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["CatId"] = new SelectList(_context.Categories, "CatId", "CatId", product.CatId);
+            ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName", product.CatId);
             return View(product);
         }
 
@@ -139,6 +167,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
                     
                     _context.Update(product);
                     await _context.SaveChangesAsync();
+                    _notyfService.Success("Sửa thành công");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -153,7 +182,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CatId"] = new SelectList(_context.Categories, "CatId", "CatId", product.CatId);
+            ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName", product.CatId);
             return View(product);
         }
 
@@ -184,6 +213,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
             var product = await _context.Products.FindAsync(id);
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
+            _notyfService.Error("Đã xóa sản phẩm");
             return RedirectToAction(nameof(Index));
         }
 

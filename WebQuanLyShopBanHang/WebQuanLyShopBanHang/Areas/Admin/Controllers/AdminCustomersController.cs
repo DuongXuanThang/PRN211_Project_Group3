@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,10 +15,11 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
     public class AdminCustomersController : Controller
     {
         private readonly Group3Context _context;
-
-        public AdminCustomersController(Group3Context context)
+        public INotyfService _notyfService { get; }
+        public AdminCustomersController(Group3Context context, INotyfService notyfService)
         {
             _context = context;
+            _notyfService = notyfService;
         }
 
         // GET: Admin/AdminCustomers
@@ -25,7 +27,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
         {
             //phan trang
             var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-            var pageSize = 20;
+            var pageSize = 5;
             var lsCustomer = _context.Customers.AsNoTracking().OrderByDescending(x => x.CustomerId);
             PagedList<Customer> models = new PagedList<Customer>(lsCustomer,pageNumber,pageSize);
             ViewBag.CurrentPage = pageNumber;
@@ -105,6 +107,8 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
                 {
                     _context.Update(customer);
                     await _context.SaveChangesAsync();
+                    _notyfService.Success("Sửa thông tin khách hàng thành công");
+                    
                 }
                 catch (DbUpdateConcurrencyException)
                 {

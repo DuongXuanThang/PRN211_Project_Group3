@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +14,11 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
     public class AdminRolesController : Controller
     {
         private readonly Group3Context _context;
-
-        public AdminRolesController(Group3Context context)
+        public INotyfService _notyfService { get; }
+        public AdminRolesController(Group3Context context, INotyfService notyfService)
         {
             _context = context;
+            _notyfService = notyfService;
         }
 
         // GET: Admin/AdminRoles
@@ -99,6 +101,7 @@ namespace WebQuanLyShopBanHang.Areas.Admin.Controllers
                 {
                     _context.Update(role);
                     await _context.SaveChangesAsync();
+                    _notyfService.Success("Sửa thành công");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
