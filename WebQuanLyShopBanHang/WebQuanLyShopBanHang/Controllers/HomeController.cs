@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,15 +13,21 @@ namespace WebQuanLyShopBanHang.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly Group3Context _context;
+        public HomeController(ILogger<HomeController> logger, Group3Context context)
         {
+            _context = context;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var lsProductRelate = _context.Products.AsNoTracking()
+                    .Include(x => x.Cat)
+                   .OrderByDescending(x => x.DateCreated).Take(8);
+            ViewBag.SanPham = lsProductRelate;
+            return View(lsProductRelate);
+            
         }
 
         public IActionResult Privacy()

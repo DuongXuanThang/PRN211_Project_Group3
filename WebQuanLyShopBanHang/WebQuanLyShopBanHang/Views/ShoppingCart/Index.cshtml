@@ -109,7 +109,7 @@
     </div>
 </main>
 @section Scripts{ 
-@*<script>
+<script>
     $(function () {
         function loadHeaderCart() {
             $("#miniCart").load("/AjaxContent/HeaderCart");
@@ -121,7 +121,7 @@
             $.ajax({
                 url: '/api/cart/remove',
                 type: "POST",
-                dataType: "JSON",
+                datatype: "json",
                 data: {
                     productID: productid
                 },
@@ -142,7 +142,7 @@
             $.ajax({
                 url: '/api/cart/update',
                 type: "POST",
-                dataType: "JSON",
+                datatype: "json",
                 data: {
                     productID: productid,
                     amount: soluong
@@ -160,5 +160,5 @@
         });
 
     });
-</script>*@
+</script>
 }

@@ -46,7 +46,7 @@ namespace WebQuanLyShopBanHang.Controllers
             try
             {
                 var danhmuc = _context.Categories.AsNoTracking().SingleOrDefault();
-                var pageSize = 10;
+                var pageSize = 6;
                 var lsProduct = _context.Products.AsNoTracking().Where(x => x.CatId == danhmuc.CatId).
                     Include(x => x.Cat)
                     .OrderByDescending(x => x.DateCreated);

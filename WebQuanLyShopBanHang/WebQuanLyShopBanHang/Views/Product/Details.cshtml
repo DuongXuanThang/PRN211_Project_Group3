@@ -37,18 +37,18 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="~/assets/images/product/large-size/2-2-555x645.jpg" class="single-img gallery-popup">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-2-555x645.jpg" alt="Product Image">
+                                    <a href="~/images/products/@Model.Thumb" class="single-img gallery-popup">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Image">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="~/assets/images/product/large-size/2-3-555x645.jpg" class="single-img gallery-popup">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-3-555x645.jpg" alt="Product Image">
+                                    <a href="~/images/products/@Model.Thumb" class="single-img gallery-popup">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Image">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="~/assets/images/product/large-size/2-4-555x645.jpg" class="single-img gallery-popup">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-4-555x645.jpg" alt="Product Image">
+                                    <a href="~/images/products/@Model.Thumb" class="single-img gallery-popup">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Image">
                                     </a>
                                 </div>
                             </div>
@@ -116,16 +116,16 @@
                             <div class="swiper-container single-product-thumbs">
                                 <div class="swiper-wrapper">
                                     <a href="javascript:void(0)" class="swiper-slide">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-1-555x645.jpg" alt="Product Thumnail">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Thumnail">
                                     </a>
                                     <a href="javascript:void(0)" class="swiper-slide">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-2-555x645.jpg" alt="Product Thumnail">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Thumnail">
                                     </a>
                                     <a href="javascript:void(0)" class="swiper-slide">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-3-555x645.jpg" alt="Product Thumnail">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Thumnail">
                                     </a>
                                     <a href="javascript:void(0)" class="swiper-slide">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-4-555x645.jpg" alt="Product Thumnail">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="Product Thumnail">
                                     </a>
                                 </div>
                             </div>
@@ -406,18 +406,23 @@
                 $ajax({
                     url: '/api/cart/add',
                     type: "POST",
-                    dataType: "JSON",
+                    datatype: "json",
                     data: {
                         productId: productid,
                         amount: soLuong
                     },
                     success: function (response) {
+                        if (response.result == 'Redirect') {
+                            window.location = response.url;
 
-                        loadHeaderCart(); //add product success
+                        } else {
+                            loadHeaderCart(); //add product success
+                        }
+                       
 
                     },
                     error: function (error) {
-                        alert("There was an error posting the data to the server: " + error.responseText);
+                        alert('error');
                     }
                 });
             });
